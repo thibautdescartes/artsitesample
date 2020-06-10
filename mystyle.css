@@ -92,6 +92,7 @@ footer{
     display: flex;
     flex-direction: row;
     padding: 5%;
+    max-width: 100%;
 }
 
 .container-1{
