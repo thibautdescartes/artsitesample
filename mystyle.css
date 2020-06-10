@@ -13,16 +13,13 @@ section {
 }
 
 header{
-    background-image: url('backgroundimage.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
     color: black;
     font-weight: bold;
-    text-align: center;
     border-color: black;
-    border-radius: 5px;
     height: fit-content;
     max-width: 100%;
 }
