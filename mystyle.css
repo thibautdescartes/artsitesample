@@ -8,11 +8,6 @@ body {
     border-width: 20px;
   }
 
-stakeholders {
-    padding: 10px;
-    margin: 10em;
-}
-
 header{
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,6 +53,11 @@ footer{
 .top-menu:hover{
     color: white;
     text-decoration: underline;
+}
+
+.stakeholders {
+    padding: 10px;
+    margin: 10em;
 }
 
 .section-heading{
