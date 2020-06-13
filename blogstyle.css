@@ -22,7 +22,6 @@ h1{
     font-weight: bold;
     text-align: center;
     border-color: black;
-    height: fit-content;
     max-width: 100%;
 }
 
@@ -75,7 +74,7 @@ footer{
 .container{
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding: 0;
 }
 
 .container-1{
@@ -88,4 +87,5 @@ footer{
     order: 0;
     width: 50%;
     padding: 5px;
+    text-align: center;
 }
