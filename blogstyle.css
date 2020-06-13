@@ -1,0 +1,102 @@
+
+body {
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-family: Verdana;
+    margin: 0;
+    vertical-align: baseline;
+    height: 100%;
+    border-width: 20em;
+}
+
+section {
+    padding: 10em;
+}
+
+h1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-color: black;
+    height: fit-content;
+    max-width: 100%;
+}
+
+a{
+  text-decoration: none;  
+}
+
+footer{
+    padding:5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.title-block{
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.11));
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 30% 20% 10% 0%;
+    font-size: 8vw;
+    text-align: left;
+}
+
+.top-menu{
+    background-color: black;
+    color: rgb(202, 202, 202);
+    padding: 5px;
+}
+
+.top-menu:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.section-heading{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resume{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.initial{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    max-height: 30%;
+}
+
+.item{
+    order: 0;
+    width: 50%;
+    padding: 5px;
+}
