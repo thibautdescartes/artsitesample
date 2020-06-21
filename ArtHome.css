@@ -1,0 +1,176 @@
+html, body, footer{
+    font-size: calc(12px + .5vw);
+    margin: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+.nav-item{
+    order: 0;
+    min-width: 10vw;
+    padding: 0 5vw;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav-item:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-bar{
+    background-color: black;
+    text-align: center;
+    max-width: 100%;
+    padding: 1vh 0;
+}
+
+.hero-landing{
+    background-color: black;
+    background-image: url('heroImage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45vh 0;
+}
+
+.title-box{
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.10));
+    width: 75vw;
+    color: white;
+    font-family: 'Bradley Hand';
+    font-size: 3rem;
+    padding: 3vh 0 3vh 1vw;
+}
+
+.join-box{
+    position: absolute;
+    top: 15vh;
+    right: 0vw;
+    padding: 9.5vh 7vw;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.join-button{
+    border-radius: 1em;
+    border-width: 10px;
+    background-color: black;
+    color: white;
+    padding: 2vh 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.join-button:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+#OurMission, #WhoWeAre, #PastWork, #GetInvolved{
+    color: black;
+    padding: 3vh 10vw 1vh;
+}
+
+.section-heading{
+    padding: 10vh 10vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 2vh 2vw;
+}
+
+.frame{
+    width: 20vw;
+    position: relative;
+}
+
+.bio-images{
+    width: 20vw;
+    z-index: 3;
+    position: relative;
+}
+
+.bio-images:hover{
+    opacity: .2;
+}
+
+.bio{
+    z-index: 2;
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    font-weight: bold;
+    text-align: left;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 0 0;
+    position: absolute;
+}
+
+img{
+    width: 25vw;
+    height: auto;
+}
+
+.page-links-div{
+    margin: auto;
+    padding: 5vh 0 0 0;
+    text-align: center;
+}
+
+.page-links{
+    border-radius: 1em;
+    border-width: 10px;
+    background-color: black;
+    color: white;
+    padding: 2vh 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page-links:hover{
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+.text-ourmission{
+    width: 45vw;
+    margin: auto 0;
+}
+
+.right{
+    position: relative;
+    left: 0vw;
+}
+
+.social-logos{
+    position: relative;
+    left: 10vw;
+    height: 3vh;
+    width: auto;
+}
