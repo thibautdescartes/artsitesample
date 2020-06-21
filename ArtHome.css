@@ -19,6 +19,7 @@ html, body, footer{
 .header-title{
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav-item{
