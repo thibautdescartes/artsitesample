@@ -16,7 +16,10 @@ html, body, footer{
     margin: auto;
 }
 
-
+.header-title{
+    color: white;
+    width: 50%;
+}
 
 .nav-item{
     order: 0;
