@@ -14,12 +14,11 @@ html, body, footer{
 .item{
     display: inline-block;
     margin: auto;
-    font-weight: bold;
 }
 
 .header-title{
     color: white;
-    width: 50%;
+    font-weight: bold;
 }
 
 .nav-item{
